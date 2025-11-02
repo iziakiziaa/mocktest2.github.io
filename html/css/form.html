@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularz - Projekt IT</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <h1>Formularz użytkownika</h1>
+
+  <form>
+    <label for="name">Imię i nazwisko:</label>
+    <input type="text" id="name" name="name" placeholder="Wpisz swoje imię i nazwisko">
+
+    <label for="email">Adres e-mail:</label>
+    <input type="email" id="email" name="email" placeholder="np. jan.kowalski@gmail.com">
+
+    <label for="role">Rola w projekcie:</label>
+    <select id="role" name="role">
+      <option value="">-- wybierz rolę --</option>
+      <option value="developer">Programista</option>
+      <option value="designer">Projektant</option>
+      <option value="tester">Tester</option>
+    </select>
+
+    <div class="buttons">
+      <button type="submit">Save</button>
+      <button type="reset">Cancel</button>
+    </div>
+  </form>
+
+</body>
+</html>

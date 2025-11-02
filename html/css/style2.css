@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #004aad;
+}
+
+/* Styl formularza */
+form {
+  background-color: white;
+  width: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+/* Etykiety */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Pola tekstowe i lista */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #cce5ff; /* niebieskie tło */
+}
+
+/* Przyciski */
+.buttons {
+  text-align: center;
+}
+
+button {
+  background-color: #28a745; /* zielony */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838;
+}
